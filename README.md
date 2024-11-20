@@ -2,6 +2,8 @@
 
 cEpiReg constructs a comprehensive database elucidating the intricate regulatory mechanisms underlying Alzheimer's Disease (AD) genetics. Through integrating data from scRNA seq and sc-ATAC seq, we identified the cis-regulatory elements (CREs) by comparing our results against various databases like ENCODE, Epimap, GWAS Catalog, and publicly available datasets. This project establishes a robust framework connecting transcription factors (TFs), CREs, and target genes. cEpiReg uncovers hidden regulatory links that could piece together missing links crucial for understanding AD pathogenesis.
 
+Done in collaboration with the [Hou Lab](https://hougroup.xyz/). 
+
 ## Accomplishments:
 Our team tackled a multifaceted project on the gene regulatory landscape in Alzheimer's Disease (AD). We constructed gene regulatory networks (GRNs) and linked transcription factors (TFs) to target genes
 (TGs) using pySCENIC, and established connections between cis regulatory elements (CREs) and TGs through ATACseq analysis. Leveraging eQTL analysis, we associated SNPs with genes and their CREs, enhancing our understanding of the CRE landscape. These insights were integrated into a user-friendly web interface at https://bioed.bu.edu/students_24/Team_10/Team-10_database.html. While we aimed to merge these analyses to infer the entire genetic landscape for AD, constraints in sample data, particularly cell-type and tissue-type specificity, prevented full integration. However, our team successfully implemented database integration, user interface development, data query functionalities, data download features, external database linkage, and creation of a comprehensive help page, resulting in a robust platform for navigating AD-related regulatory networks.
